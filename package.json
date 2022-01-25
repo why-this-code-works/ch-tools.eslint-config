@@ -1,0 +1,25 @@
+{
+  "name": "@coachhubio/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint shareable config for the CoachHub JS/TS coding style",
+  "repository": "vlad-coachhub/ch-tools.eslint-config",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-config-prettier": "^8.0.0",
+    "eslint-plugin-jsx-a11y": "^6.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "typescript": "^4.0.0"
+  }
+}
